@@ -197,46 +197,7 @@
 
     <div class="relative z-10 max-w-5xl mx-auto flex flex-col items-center text-center">
 
-      <!-- Left Decorative Element: Film Strip (Desktop & Tablet) -->
-      <div class="hidden md:block absolute -left-4 lg:left-2 top-8 z-20 floating-film-strip pointer-events-none">
-        <div class="bg-retroBgLight border-[2.5px] border-retroBorder p-3 rounded-lg shadow-brutal-lg transform -rotate-12 w-36">
-          <div class="flex justify-between border-b-2 border-retroBorder pb-1 mb-2">
-            <span class="w-3 h-2 bg-retroDark rounded-sm inline-block"></span>
-            <span class="w-3 h-2 bg-retroDark rounded-sm inline-block"></span>
-            <span class="w-3 h-2 bg-retroDark rounded-sm inline-block"></span>
-            <span class="w-3 h-2 bg-retroDark rounded-sm inline-block"></span>
-          </div>
-          <div class="bg-retroYellowLight/80 border border-retroBorder rounded p-2 text-center">
-            <p class="font-fredoka font-extrabold text-xs text-retroDark leading-tight">Lights<br/>Camera<br/>- Code!</p>
-          </div>
-          <div class="flex justify-between border-t-2 border-retroBorder pt-1 mt-2">
-            <span class="w-3 h-2 bg-retroDark rounded-sm inline-block"></span>
-            <span class="w-3 h-2 bg-retroDark rounded-sm inline-block"></span>
-            <span class="w-3 h-2 bg-retroDark rounded-sm inline-block"></span>
-            <span class="w-3 h-2 bg-retroDark rounded-sm inline-block"></span>
-          </div>
-          <span class="absolute -top-3 -right-2 text-retroRed text-xl font-bold">✦</span>
-        </div>
-      </div>
 
-      <!-- Right Decorative Element: Film Reel (Desktop & Tablet) -->
-      <div class="hidden md:block absolute -right-4 lg:right-2 top-6 z-20 floating-film-reel pointer-events-none">
-        <svg class="w-32 h-32 lg:w-40 lg:h-40 filter drop-shadow-[4px_4px_0px_#1C1613]" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <!-- Film Reel Outer Rim -->
-          <circle cx="80" cy="80" r="65" fill="#FAF4E6" stroke="#1C1613" stroke-width="5"/>
-          <circle cx="80" cy="80" r="54" fill="#E8A317" stroke="#1C1613" stroke-width="4"/>
-          <circle cx="80" cy="80" r="24" fill="#FAF4E6" stroke="#1C1613" stroke-width="4"/>
-          <circle cx="80" cy="80" r="9" fill="#1C1613"/>
-          <circle cx="80" cy="45" r="9" fill="#FAF4E6" stroke="#1C1613" stroke-width="3"/>
-          <circle cx="80" cy="115" r="9" fill="#FAF4E6" stroke="#1C1613" stroke-width="3"/>
-          <circle cx="45" cy="80" r="9" fill="#FAF4E6" stroke="#1C1613" stroke-width="3"/>
-          <circle cx="115" cy="80" r="9" fill="#FAF4E6" stroke="#1C1613" stroke-width="3"/>
-          <circle cx="55" cy="55" r="8" fill="#FAF4E6" stroke="#1C1613" stroke-width="3"/>
-          <circle cx="105" cy="105" r="8" fill="#FAF4E6" stroke="#1C1613" stroke-width="3"/>
-          <path d="M125 110 C 150 125, 155 145, 140 160" stroke="#1C1613" stroke-width="12" stroke-linecap="round"/>
-          <path d="M125 110 C 150 125, 155 145, 140 160" stroke="#FAF4E6" stroke-width="6" stroke-dasharray="2 4"/>
-        </svg>
-      </div>
 
       <!-- Top Fest Tag -->
       <div class="mb-3">
@@ -814,28 +775,28 @@
           </span>
         </div>
 
-        <!-- 3 Columns for Core Faculty -->
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center max-w-4xl mx-auto">
-          <!-- Faculty Coordinators -->
-          <div class="flex flex-col items-center bg-white/70 border-2 border-retroBorder/60 rounded-xl p-3.5 shadow-brutal-sm">
-            <div class="w-12 h-12 rounded-full bg-retroYellow/40 border-2 border-retroBorder flex items-center justify-center text-xl mb-2 shadow-brutal-sm">
-              👥
+        <!-- 6 Columns for Core Leadership & Faculty Coordinators -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 text-center max-w-6xl mx-auto items-stretch">
+
+          <!-- Head of Department -->
+          <div class="flex flex-col items-center justify-start bg-white/70 border-2 border-retroBorder/60 rounded-xl p-3 sm:p-3.5 shadow-brutal-sm hover-lift transition-all">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-retroBorder shadow-brutal-sm overflow-hidden mb-2 bg-white">
+              <img src="images/hod_cse.png" alt="Dr. P. Niranjan Reddy - Head of Department" class="w-full h-full rounded-full object-cover object-top"/>
             </div>
-            <h4 class="font-fredoka font-bold text-xs sm:text-sm text-retroDark mb-1">
-              Faculty Coordinators
+            <h4 class="font-fredoka font-bold text-xs sm:text-sm text-retroDark mb-1 min-h-[32px] flex items-center justify-center">
+              Head of Department
             </h4>
             <p class="font-fredoka text-xs text-retroDark/80 leading-snug">
-              Dr. N.C. Santhosh Kumar<br/>
-              Dr. R. Rajesh
+              Dr. P. Niranjan Reddy
             </p>
           </div>
 
           <!-- Convenor -->
-          <div class="flex flex-col items-center bg-white/70 border-2 border-retroBorder/60 rounded-xl p-3.5 shadow-brutal-sm">
-            <div class="w-12 h-12 rounded-full bg-retroRed/25 border-2 border-retroBorder flex items-center justify-center text-xl mb-2 shadow-brutal-sm">
-              👤
+          <div class="flex flex-col items-center justify-start bg-white/70 border-2 border-retroBorder/60 rounded-xl p-3 sm:p-3.5 shadow-brutal-sm hover-lift transition-all">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-retroBorder shadow-brutal-sm overflow-hidden mb-2 bg-white">
+              <img src="images/convener.webp" alt="Dr. C. Srinivas - Convenor" class="w-full h-full rounded-full object-cover object-top"/>
             </div>
-            <h4 class="font-fredoka font-bold text-xs sm:text-sm text-retroDark mb-1">
+            <h4 class="font-fredoka font-bold text-xs sm:text-sm text-retroDark mb-1 min-h-[32px] flex items-center justify-center">
               Convenor
             </h4>
             <p class="font-fredoka text-xs text-retroDark/80 leading-snug">
@@ -843,18 +804,58 @@
             </p>
           </div>
 
-          <!-- Head of Department -->
-          <div class="flex flex-col items-center bg-white/70 border-2 border-retroBorder/60 rounded-xl p-3.5 shadow-brutal-sm">
-            <div class="w-12 h-12 rounded-full bg-retroYellow/40 border-2 border-retroBorder flex items-center justify-center text-xl mb-2 shadow-brutal-sm">
-              🎖️
+          <!-- Faculty Coordinator: Dr. N.C. Santhosh Kumar -->
+          <div class="flex flex-col items-center justify-start bg-white/70 border-2 border-retroBorder/60 rounded-xl p-3 sm:p-3.5 shadow-brutal-sm hover-lift transition-all">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-retroBorder shadow-brutal-sm overflow-hidden mb-2 bg-white">
+              <img src="images/santhosh_kumar.webp" alt="Dr. N.C. Santhosh Kumar - Faculty Coordinator" class="w-full h-full rounded-full object-cover object-top"/>
             </div>
-            <h4 class="font-fredoka font-bold text-xs sm:text-sm text-retroDark mb-1">
-              Head of Department
+            <h4 class="font-fredoka font-bold text-xs sm:text-sm text-retroDark mb-1 min-h-[32px] flex items-center justify-center">
+              Faculty Coordinator
             </h4>
             <p class="font-fredoka text-xs text-retroDark/80 leading-snug">
-              Dr. P. Niranjan Reddy
+              Dr. N.C. Santhosh Kumar
             </p>
           </div>
+
+          <!-- Faculty Coordinator: Dr. R. Rajesh -->
+          <div class="flex flex-col items-center justify-start bg-white/70 border-2 border-retroBorder/60 rounded-xl p-3 sm:p-3.5 shadow-brutal-sm hover-lift transition-all">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-retroBorder shadow-brutal-sm overflow-hidden mb-2 bg-white">
+              <img src="images/rajesh.webp" alt="Dr. R. Rajesh - Faculty Coordinator" class="w-full h-full rounded-full object-cover object-top"/>
+            </div>
+            <h4 class="font-fredoka font-bold text-xs sm:text-sm text-retroDark mb-1 min-h-[32px] flex items-center justify-center">
+              Faculty Coordinator
+            </h4>
+            <p class="font-fredoka text-xs text-retroDark/80 leading-snug">
+              Dr. R. Rajesh
+            </p>
+          </div>
+
+          <!-- President of CSE Association: Vishwath Narayan -->
+          <div class="flex flex-col items-center justify-start bg-white/70 border-2 border-retroBorder/60 rounded-xl p-3 sm:p-3.5 shadow-brutal-sm hover-lift transition-all">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-retroBorder shadow-brutal-sm overflow-hidden mb-2 bg-white">
+              <img src="images/vishwath_narayan.png" alt="Vishwath Narayan - President of CSE Association" class="w-full h-full rounded-full object-cover object-top"/>
+            </div>
+            <h4 class="font-fredoka font-bold text-xs sm:text-sm text-retroDark mb-1 min-h-[32px] flex items-center justify-center">
+              President, CSE Assoc.
+            </h4>
+            <p class="font-fredoka text-xs text-retroDark/80 leading-snug">
+              Vishwath Narayan
+            </p>
+          </div>
+
+          <!-- ISTE Vice President: V. Rohith -->
+          <div class="flex flex-col items-center justify-start bg-white/70 border-2 border-retroBorder/60 rounded-xl p-3 sm:p-3.5 shadow-brutal-sm hover-lift transition-all">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-retroBorder shadow-brutal-sm overflow-hidden mb-2 bg-white">
+              <img src="images/v_rohith.png" alt="V. Rohith - ISTE Vice President" class="w-full h-full rounded-full object-cover object-top"/>
+            </div>
+            <h4 class="font-fredoka font-bold text-xs sm:text-sm text-retroDark mb-1 min-h-[32px] flex items-center justify-center">
+              ISTE Vice President
+            </h4>
+            <p class="font-fredoka text-xs text-retroDark/80 leading-snug">
+              V. Rohith
+            </p>
+          </div>
+
         </div>
       </div>
 
